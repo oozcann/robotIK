@@ -1,0 +1,43 @@
+{
+  "name": "application",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Onur Özcan",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "webpack serve --progress --mode development --config webpack.config.js --open",
+    "build": "webpack --bail --progress --profile --mode production --config webpack.config.js",
+    "dev": "webpack-dev-server --mode development --open"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@uirouter/angularjs": "^1.0.30",
+    "angular": "^1.8.2",
+    "bootbox": "^6.0.0",
+    "bootstrap": "^5.3.0",
+    "jquery": "^3.7.0",
+    "moment": "^2.29.4",
+    "ngsticky": "^1.7.12",
+    "ui-select": "^0.19.8",
+    "underscore": "^1.13.6"
+  }
+}

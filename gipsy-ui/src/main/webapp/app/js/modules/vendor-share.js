@@ -21,6 +21,7 @@ import '../services.js';
 Start Importing CSS files
 */
 import '../../styles/css/robotik.css'
+import '../../styles/css/sidebar.css'
 /*
 End Importing CSS files
 */

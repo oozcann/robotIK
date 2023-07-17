@@ -10,7 +10,8 @@ import 'ui-select/dist/select';
 import 'underscore';
 import '@fortawesome/fontawesome-free/js/all.min.js'
 import '@fortawesome/fontawesome-free/css/all.min.css'
-
+import 'angular-translate/dist/angular-translate.js';
+import 'angular-translate/dist/angular-translate-loader-static-files/angular-translate-loader-static-files.js';
 
 import '../directives.js';
 import '../controllers.js';

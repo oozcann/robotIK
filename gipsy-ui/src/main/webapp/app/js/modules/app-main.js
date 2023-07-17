@@ -9,7 +9,8 @@ angular.module('myApp',
         'myApp.directives',
         'myApp.controllers',
         'myApp.services',
-        'myApp.filters'
+        'myApp.filters',
+        'pascalprecht.translate'
     ])
     .config([
         '$urlRouterProvider',
@@ -22,7 +23,18 @@ angular.module('myApp',
         ($stateProvider) => {
             MainStates($stateProvider);
         }
-    ]);
+    ])
+    .config(['$translateProvider', function ($translateProvider) {
+        $translateProvider.useStaticFilesLoader({
+            prefix: './asset/json/translations/',
+            suffix: '.json'
+        })
+        .preferredLanguage('tr')
+        .fallbackLanguage('en')
+        .uniformLanguageTag('iso639-1')
+        .determinePreferredLanguage();
+        $translateProvider.useSanitizeValueStrategy(null);
+    }]);
 
 
 angular.bootstrap(document.body, ['myApp']);

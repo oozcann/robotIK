@@ -1,0 +1,168 @@
+{
+  "ACTIONS": {
+    "ADD": "Add",
+    "CANCEL": "Cancel",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "NEW": {
+      "ANNUAL_LEAVE": "New Annual Leave",
+      "BONUS": "New Bonus",
+      "COMPANY": "New Company",
+      "EMPLOYEE": "New Employee",
+      "REMINDER": "New Reminder"
+    },
+    "REMOVE_PERMANENTLY": "Remove Permanently",
+    "SAVE": "Save",
+    "TRANSFER": "Transfer"
+  },
+  "BREADCRUMB": {
+    "ANNUAL_LEAVE": {
+      "ANNUAL_LEAVES": "Annual Leaves",
+      "DETAIL": "Leave Detail",
+      "NEW": "New Annual Leave"
+    },
+    "BONUS": {
+      "BONUS": "All Bonus",
+      "DETAIL": "Bonus Detail",
+      "NEW": "New Bonus"
+    },
+    "COMPANY": {
+      "COMPANIES": "Companies",
+      "NEW": "New Company"
+    },
+    "EMPLOYEE": {
+      "EMPLOYEES": "Employees",
+      "NEW": "New Employee"
+    },
+    "HOME": "Homepage",
+    "REMINDER": {
+      "NEW": "New Reminder",
+      "REMINDERS": "Reminders"
+    }
+  },
+  "FORMS": {
+    "ANNUAL_LEAVE": {
+      "ANNUAL_LEAVE": "Annual Leave",
+      "AL_STARTDATE": "Leave Start Date",
+      "AL_ENDDATE": "Leave End Date",
+      "AL_NOT_FOUND": "Annual Leave Not Found.",
+      "AL_SPENT": "Leave (Day)",
+      "WORK_STARTDATE": "Work Start Date"
+    },
+    "BONUS": {
+      "BONUS": "Bonus",
+      "BONUS_TL": "Bonus(TL)",
+      "BONUS_NOT_FOUND": "Bonus Not Found",
+      "PAYMENT_DATE": "Payment Date"
+    },
+    "COMPANY": {
+      "ADDRESS": "Address",
+      "COMPANY": "Company",
+      "NAME": "Company Name",
+      "PHONE": "Company Phone",
+      "SGK": "SGK No",
+      "TRANSFER_TO": "Transfer To"
+    },
+    "CREATION_DATE": "Creation Date",
+    "DESCRIPTION": "Description",
+    "EMPLOYEE": {
+      "AGE": "Age",
+      "ANNUAL_LEAVE": "Annual Leave Spend(Days)",
+      "DATEOFBIRTH": "Date of Birth",
+      "EMAIL": "Email",
+      "EMPLOYEE": "Employee",
+      "EMPLOYEE_NOT_FOUND": "Employee Not Found",
+      "GENDER": "Gender",
+      "INTERNAL_UNIQUE_NAME": "Internal Unique Name",
+      "JOB_STARTDATE": "Job Start Date",
+      "NAME": "Name",
+      "PHONE": "Phone",
+      "SURNAME": "Surname",
+      "UNIQUE_NAME": "National ID"
+
+    },
+    "HEADER": {
+      "COMPANY": "Company Information",
+      "CONTACT": "Contact Information",
+      "GENERAL": "General Information",
+      "PERSONAL": "Personal Information"
+    },
+    "NAME": "Ad",
+    "REFERENCE_NO": "Reference No",
+    "RELATED": {
+      "COMPANY": "Related Company",
+      "EMPLOYEE": "Related Employee"
+    },
+    "REMINDER": {
+      "REMINDER": "Reminder",
+      "REMINDER_DATE": "Reminder Date",
+      "REMINDER_NOT_FOUND": "Reminder Not Found"
+    },
+    "UNIQUENAME": "Reference No"
+  },
+  "LIST": {
+    "EMPLOYEES": "Employees",
+    "REMINDERS": "Reminders"
+  },
+  "PAGE_HEADER": {
+    "ANNUAL_LEAVE": {
+      "DETAIL": "Annual Leave Details",
+      "NEW": {
+        "DESCRIPTION": "Please provide annual leave information",
+        "TITLE": "New Annual Leave"
+      },
+      "LIST": {
+        "DESCRIPTION": "Annual leave details given to employees",
+        "TITLE": "Annual Leaves"
+      }
+    },
+    "BONUS": {
+      "DETAIL": "Bonus Details",
+      "NEW": {
+        "DESCRIPTION": "Please provide bonus information",
+        "TITLE": "New Bonus"
+      },
+      "LIST": {
+        "DESCRIPTION": "Bonus details given to employees",
+        "TITLE": "All Bonus"
+      }
+    },
+    "COMPANY": {
+      "NEW": {
+        "DESCRIPTION": "Please provide company information",
+        "TITLE": "New Company"
+      },
+      "LIST": {
+        "DESCRIPTION": "List of companies you are authorized to view.",
+        "TITLE": "Companies"
+      }
+    },
+    "EMPLOYEE": {
+      "NEW": {
+        "DESCRIPTION": "Please provide employee information.",
+        "TITLE": "New Employee"
+      },
+      "LIST": {
+        "DESCRIPTION": "List of employees you are authorized to view.",
+        "TITLE": "Employees"
+      }
+    },
+    "HOME": {
+      "DESCRIPTION": "Reports & General Information",
+      "TITLE": "Homepage"
+    },
+    "REMINDER": {
+      "NEW": {
+        "DESCRIPTION": "Please provide reminder details.",
+        "TITLE": "New Reminder"
+      },
+      "LIST": {
+        "DESCRIPTION": "Search & Listing",
+        "TITLE": "Reminders"
+      }
+    }
+  },
+  "PLACEHOLDER": {
+    "ENTER_NAME": "Enter a name"
+  }
+}

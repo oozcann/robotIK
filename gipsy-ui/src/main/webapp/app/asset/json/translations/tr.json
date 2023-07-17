@@ -1,0 +1,168 @@
+{
+  "ACTIONS": {
+    "ADD": "Ekle",
+    "CANCEL": "Vazgeç",
+    "DELETE": "Sil",
+    "EDIT": "Düzenle",
+    "NEW": {
+      "ANNUAL_LEAVE": "Yeni Yıllık İzin",
+      "BONUS": "Yeni Prim",
+      "COMPANY": "Yeni Firma",
+      "EMPLOYEE": "Yeni Çalışan",
+      "REMINDER": "Yeni Hatırlatıcı"
+    },
+    "REMOVE_PERMANENTLY": "Kalıcı Olarak Sil",
+    "SAVE": "Kaydet",
+    "TRANSFER": "Transfer Et"
+  },
+  "BREADCRUMB": {
+    "ANNUAL_LEAVE": {
+      "ANNUAL_LEAVES": "Yıllık İzinler",
+      "DETAIL": "İzin Detayı",
+      "NEW": "Yeni İzin"
+    },
+    "BONUS": {
+      "BONUS": "Primler",
+      "DETAIL": "Prim Detayı",
+      "NEW": "Yeni Prim"
+    },
+    "COMPANY": {
+      "COMPANIES": "Firmalar",
+      "NEW": "Yeni Firma"
+    },
+    "EMPLOYEE": {
+      "EMPLOYEES": "Çalışanlar",
+      "NEW": "Yeni Çalışan"
+    },
+    "HOME": "Anasayfa",
+    "REMINDER": {
+      "NEW": "Yeni Hatırlatıcı",
+      "REMINDERS": "Hatırlatıcılar"
+    }
+  },
+  "FORMS": {
+    "ANNUAL_LEAVE": {
+      "ANNUAL_LEAVE": "Yıllık İzin",
+      "AL_STARTDATE": "İzin Başlangıç Tarihi",
+      "AL_ENDDATE": "İzin Bitiş Tarihi",
+      "AL_NOT_FOUND": "Yıllık İzin Bulunamadı.",
+      "AL_SPENT": "İzin Süresi (Gün)",
+      "WORK_STARTDATE": "İşbaşı Tarihi"
+    },
+    "BONUS": {
+      "BONUS": "Prim",
+      "BONUS_TL": "Prim Miktarı(TL)",
+      "BONUS_NOT_FOUND": "Prim Bulunamadı.",
+      "PAYMENT_DATE": "Prim Veriliş Tarihi"
+    },
+    "COMPANY": {
+      "ADDRESS": "Adres",
+      "COMPANY": "Firma",
+      "NAME": "Firma Adı",
+      "PHONE": "Telefon",
+      "SGK": "SGK Sicil No",
+      "TRANSFER_TO": "Transfer Edilecek Firma"
+    },
+    "CREATION_DATE": "Oluşturulma Tarihi",
+    "DESCRIPTION": "Açıklama",
+    "EMPLOYEE": {
+      "AGE": "Yaş",
+      "ANNUAL_LEAVE": "Kullanılan İzin(Gün)",
+      "DATEOFBIRTH": "Doğum Tarihi",
+      "EMAIL": "Email",
+      "EMPLOYEE": "Çalışan",
+      "EMPLOYEE_NOT_FOUND": "Çalışan Bulunamadı.",
+      "GENDER": "Cinsiyet",
+      "INTERNAL_UNIQUE_NAME": "Sicil No",
+      "JOB_STARTDATE": "İşe Başlama Tarihi",
+      "NAME": "Ad",
+      "PHONE": "Telefon",
+      "SURNAME": "Soyad",
+      "UNIQUE_NAME": "TC Kimlik"
+
+    },
+    "HEADER": {
+      "COMPANY": "Firma Bilgileri",
+      "CONTACT": "İletişim Bilgileri",
+      "GENERAL": "Genel Bilgiler",
+      "PERSONAL": "Özlük Bilgileri"
+    },
+    "NAME": "Ad",
+    "REFERENCE_NO": "Referans No",
+    "RELATED": {
+      "COMPANY": "İlişkili Firma",
+      "EMPLOYEE": "İlişkili Çalışan"
+    },
+    "REMINDER": {
+      "REMINDER": "Hatırlatıcı",
+      "REMINDER_DATE": "Hatırlatma Tarihi",
+      "REMINDER_NOT_FOUND": "Hatırlatıcı Bulunamadı"
+    },
+    "UNIQUENAME": "Referans No"
+  },
+  "LIST": {
+    "EMPLOYEES": "Çalışanlar",
+    "REMINDERS": "Hatırlatıcılar"
+  },
+  "PAGE_HEADER": {
+    "ANNUAL_LEAVE": {
+      "DETAIL": "Yıllık İzin Detayları",
+      "NEW": {
+        "DESCRIPTION": "Lütfen izin detaylarını giriniz.",
+        "TITLE": "Yeni Yıllık İzin"
+      },
+      "LIST": {
+        "DESCRIPTION": "Çalışanlara verilen izin detayları",
+        "TITLE": "İzinler"
+      }
+    },
+    "BONUS": {
+      "DETAIL": "Prim Detayları",
+      "NEW": {
+        "DESCRIPTION": "Lütfen prim detaylarını giriniz.",
+        "TITLE": "Yeni Prim"
+      },
+      "LIST": {
+        "DESCRIPTION": "Çalışanlara verilen prim detayları",
+        "TITLE": "Primler"
+      }
+    },
+    "COMPANY": {
+      "NEW": {
+        "DESCRIPTION": "Lütfen firma detaylarını giriniz.",
+        "TITLE": "Yeni Firma"
+      },
+      "LIST": {
+        "DESCRIPTION": "Kayıtlı firmalar listesi üzerinden seçim işlemlerini yapabilirsiniz.",
+        "TITLE": "Firmalar"
+      }
+    },
+    "EMPLOYEE": {
+      "NEW": {
+        "DESCRIPTION": "Lütfen çalışan detaylarını giriniz.",
+        "TITLE": "Yeni Çalışan"
+      },
+      "LIST": {
+        "DESCRIPTION": "Kayıtlı çalışanlar listesi üzerinden seçim işlemlerini yapabilirsiniz.",
+        "TITLE": "Çalışanlar"
+      }
+    },
+    "HOME": {
+      "DESCRIPTION": "Raporlar & Genel Bilgiler",
+      "TITLE": "Anasayfa"
+    },
+    "REMINDER": {
+      "NEW": {
+        "DESCRIPTION": "Lütfen hatırlatıcı detaylarını giriniz.",
+        "TITLE": "Yeni Hatırlatıcı"
+      },
+      "LIST": {
+        "DESCRIPTION": "Listeleme & Takip",
+        "TITLE": "Hatırlatıcılar"
+      }
+    }
+  },
+  "PLACEHOLDER": {
+    "ENTER_NAME": "Bir isim giriniz."
+  }
+}

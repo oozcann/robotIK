@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fefefe;
+}
+.top-menu {
+    height: 40px;
+    background-color: #000;
+    opacity: 0.9;
+    text-align: center;
+	line-height:40px;
+}
+.main-area {
+    height: 100%;
+    width: 100%;
+    margin: 0!important;
+    padding: 0!important;
+}

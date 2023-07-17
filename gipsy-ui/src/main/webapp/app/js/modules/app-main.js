@@ -14,7 +14,7 @@ angular.module('myApp',
     .config([
         '$urlRouterProvider',
         ($urlRouterProvider) => {
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise('/home');
         }
     ])
     .config([

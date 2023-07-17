@@ -15,6 +15,7 @@ module.exports = (env, options) => {
 		},
 		devServer: {
 			static: './dist',
+			port: 3000
 		},
 		module: {
 			rules: [

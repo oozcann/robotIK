@@ -1,7 +1,13 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
+const ROOT = path.resolve(__dirname, '.');
+
+const root = function (args) {
+	return path.join(ROOT, args);
+};
 
 module.exports = (env, options) => {
 
@@ -38,9 +44,14 @@ module.exports = (env, options) => {
 					use: defStyle
 				},
 				{
-                  test: /\.html$/,
-                  use: 'html-loader'
+                    test: /\.html$/,
+                    use: 'html-loader'
                 },
+                {
+                    test: /\.json$/,
+                    loader: 'json-loader',
+                    type: 'javascript/auto'
+                }
 			]
 		},
 		plugins: [
@@ -61,6 +72,14 @@ module.exports = (env, options) => {
                 'global.jQuery': 'jquery',
                 'global.$': 'jquery',
                  moment: 'moment'
+            }),
+            new CopyWebpackPlugin({
+                patterns: [
+                    {
+                        from: root('app/asset'),
+                        to: 'asset'
+                    }
+                ]
             })
 		],
 		optimization: {

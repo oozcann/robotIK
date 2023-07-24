@@ -1,4 +1,7 @@
+import { RendererProvider } from './util/renderers';
+
 const serviceModuleConf = function ($provide) {
+    RendererProvider($provide);
     /*
     $provide.factory('entityService', [
 		'$q',

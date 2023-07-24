@@ -23,3 +23,49 @@ html, body {
     margin: 0!important;
     padding: 0!important;
 }
+.col-sm-9 > input.form-control,
+.col-sm-9 >div > input.form-control,
+.col-sm-9 > select.form-control,
+div[ng-switch-when] > select.form-control {
+    width: 100% !important;
+    height: 34px !important;
+    border-radius:0;
+}
+.col-sm-9 > div > textarea.form-control {
+    resize: none;
+    overflow: hidden;
+    width: 100%!important;
+}
+.form-control {
+    width: 200px !important;
+    height: 34px !important;
+    border-radius:0;
+}
+.form-group > .col-sm-9 {
+    padding-right: 30px;
+}
+.form-control:focus {
+    box-shadow:none;
+    border: 1px solid green;
+}
+.input-group {
+    float: left;
+}
+.control-label {
+    margin:0;
+    padding:4px 8px 0 0;
+    text-align:right;
+    float:left;
+    border-right: 1px solid #cecece;
+    color: #0275d8;
+}
+.control-span, .form-group > span {
+    margin:0;
+    padding: 4px 0 0 8px;
+}
+.form-group {
+    margin: 0 !important;
+}
+.form-group > span, .form-group > div, .form-group > label {
+    padding:6px;
+}

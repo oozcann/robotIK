@@ -21,8 +21,23 @@ module.exports = (env, options) => {
 		},
 		devServer: {
 			static: './dist',
-			port: 3000
+			port: 1111,
+			proxy: {
+                '/api': 'http://localhost:3000'
+              }
 		},
+		/*
+		proxy: {
+            '/api/': {
+                target: 'http://localhost:3000/api/',
+                secure: false,
+                changeOrigin: true,
+                pathRewrite: {
+                    '/api': ''
+                }
+            }
+        },
+        */
 		module: {
 			rules: [
 				{

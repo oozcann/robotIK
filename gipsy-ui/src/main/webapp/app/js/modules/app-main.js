@@ -1,6 +1,7 @@
 import './vendor-share';
 
 import { MainStates } from '../states/main-states';
+import { CompanyStates } from '../states/company-states';
 
 angular.module('myApp',
     [
@@ -22,6 +23,7 @@ angular.module('myApp',
         '$stateProvider',
         ($stateProvider) => {
             MainStates($stateProvider);
+            CompanyStates($stateProvider);
         }
     ])
     .config(['$translateProvider', function ($translateProvider) {

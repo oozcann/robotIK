@@ -1,0 +1,30 @@
+<form name="newCompany" ng-if="!company.archived">
+    <h3 class="pt-2 pl-3" translate="FORMS.HEADER.COMPANY">Firma/Tesis Bilgileri</h3>
+    <hr class="m-3" />
+    <div html-form-element="text" being-edited="beingEdited" ng-model="company.name" ng-required="true" label="{{'FORMS.COMPANY.NAME' | translate}}"></div>
+    <div html-form-element="text" being-edited="beingEdited" ng-model="company.uniqueName" ng-required="true" label="{{'FORMS.COMPANY.SGK' | translate}}"></div>
+    <h3 class="pt-4 pl-3" translate="FORMS.HEADER.CONTACT">İletişim Bilgileri</h3>
+    <hr class="m-3" />
+    <div html-form-element="phone" being-edited="beingEdited" ng-model="company.phone" label="{{'FORMS.COMPANY.PHONE' | translate}}" placeholder="___-_______"></div>
+    <div html-form-element="textarea" being-edited="beingEdited" ng-model="company.address" label="{{'FORMS.COMPANY.ADDRESS' | translate}}"></div>
+    <!--
+    <div class="sticky-button">
+        <div new-edit-delete-buttons entity="company" being-edited="beingEdited" is-new="isNew" disable-opts="newCompany"></div>
+    </div>
+    -->
+    <!--
+    <div ng-show="!beingEdited">
+        <h3 class="pt-4 pl-3">Firma/Tesis Çalışanları</h3>
+        <hr class="m-3" />
+        <div employees-list employees="employees" hide-archived-data-button="true"></div>
+    </div>
+    <div ng-show="!beingEdited">
+        <h3 class="pt-4 pl-3">Firma/Tesis Hatırlatıcıları</h3>
+        <hr class="m-3" />
+        <div reminder-list reminders="reminders"></div>
+    </div>
+    -->
+</form>
+<!--
+<div archive-button entity="company"></div>
+-->
